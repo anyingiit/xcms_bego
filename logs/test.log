@@ -1,0 +1,14 @@
+2019/12/28 10:02:25.481 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2019/12/28 10:49:04.588 [I] [router.go:833]  user login in
+2019/12/28 10:49:04.588 [C] [panic.go:679]  the request url is  /
+2019/12/28 10:49:04.588 [C] [panic.go:679]  Handler crashed with error <Ormer> table: `studyBeego/models.Page` not found, make sure it was registered with `RegisterModel()`
+2019/12/28 10:49:04.588 [C] [panic.go:679]  /usr/local/Cellar/go/1.13.5/libexec/src/runtime/panic.go:679
+2019/12/28 10:49:04.588 [C] [panic.go:679]  /Users/anying/go/src/github.com/astaxie/beego/orm/orm.go:114
+2019/12/28 10:49:04.588 [C] [panic.go:679]  /Users/anying/go/src/github.com/astaxie/beego/orm/orm.go:236
+2019/12/28 10:49:04.588 [C] [panic.go:679]  /Users/anying/go/src/studyBeego/models/page.go:33
+2019/12/28 10:49:04.588 [C] [panic.go:679]  /Users/anying/go/src/studyBeego/controllers/default.go:16
+2019/12/28 10:49:04.588 [C] [panic.go:679]  /Users/anying/go/src/github.com/astaxie/beego/router.go:833
+2019/12/28 10:49:04.589 [C] [panic.go:679]  /usr/local/Cellar/go/1.13.5/libexec/src/net/http/server.go:2802
+2019/12/28 10:49:04.590 [C] [panic.go:679]  /usr/local/Cellar/go/1.13.5/libexec/src/net/http/server.go:1890
+2019/12/28 10:49:04.590 [C] [panic.go:679]  /usr/local/Cellar/go/1.13.5/libexec/src/runtime/asm_amd64.s:1357
+2019/12/28 10:49:04.591 [server.go:3054]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)

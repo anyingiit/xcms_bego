@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1d654272-ef1f-4f61-bddc-f411382cd284" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="/usr/local/Cellar/go/1.13.5/libexec" />
+  <component name="ProjectId" id="1VThii6ToL6hXu6Y0VDfL1FgHRJ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="configurable.Global.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Module.GOPATH.is.expanded" value="false" />
+    <property name="configurable.Project.GOPATH.is.expanded" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="312" y="66" key="#GOPATH" timestamp="1577367987073">
+      <screen x="0" y="0" width="1424" height="802" />
+    </state>
+    <state x="312" y="66" key="#GOPATH/0.0.1424.802@0.0.1424.802" timestamp="1577367987073" />
+    <state x="312" y="59" key="#GOROOT" timestamp="1577283134710">
+      <screen x="0" y="23" width="1424" height="741" />
+    </state>
+    <state x="312" y="59" key="#GOROOT/0.23.1424.741@0.23.1424.741" timestamp="1577283134710" />
+    <state x="312" y="66" key="#Go_Modules_(vgo)" timestamp="1577286837341">
+      <screen x="0" y="0" width="1424" height="802" />
+    </state>
+    <state x="312" y="66" key="#Go_Modules_(vgo)/0.0.1424.802@0.0.1424.802" timestamp="1577286837341" />
+    <state x="333" y="133" key="#Log_Highlighting_(ideolog)" timestamp="1577370397692">
+      <screen x="0" y="0" width="1424" height="802" />
+    </state>
+    <state x="333" y="133" key="#Log_Highlighting_(ideolog)/0.0.1424.802@0.0.1424.802" timestamp="1577370397692" />
+    <state x="421" y="211" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1577454024518">
+      <screen x="0" y="0" width="1424" height="802" />
+    </state>
+    <state x="421" y="211" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1424.802@0.0.1424.802" timestamp="1577454024518" />
+    <state x="362" y="186" key="EditFileWatcherDialog" timestamp="1577364574849">
+      <screen x="0" y="0" width="1424" height="802" />
+    </state>
+    <state x="362" y="186" key="EditFileWatcherDialog/0.0.1424.802@0.0.1424.802" timestamp="1577364574849" />
+    <state x="213" y="40" key="SettingsEditor" timestamp="1577364576541">
+      <screen x="0" y="0" width="1424" height="802" />
+    </state>
+    <state x="213" y="40" key="SettingsEditor/0.0.1424.802@0.0.1424.802" timestamp="1577364576541" />
+    <state x="370" y="44" width="683" height="714" key="find.popup" timestamp="1577364370792">
+      <screen x="0" y="0" width="1424" height="802" />
+    </state>
+    <state x="370" y="44" width="683" height="714" key="find.popup/0.0.1424.802@0.0.1424.802" timestamp="1577364370792" />
+  </component>
+</project>

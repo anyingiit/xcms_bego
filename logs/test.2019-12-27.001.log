@@ -1,0 +1,36 @@
+2019/12/26 22:20:39.100 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2019/12/26 22:23:35.782 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2019/12/26 22:23:47.949 [I] [router.go:833]  user login in
+2019/12/26 23:17:19.629 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2019/12/26 23:17:20.925 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2019/12/26 23:18:08.469 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2019/12/26 23:19:24.476 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2019/12/26 23:20:09.712 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2019/12/26 23:21:59.216 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2019/12/26 23:24:02.110 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2019/12/26 23:24:41.677 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2019/12/26 23:25:25.746 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2019/12/26 23:32:29.149 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2019/12/26 23:32:30.464 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2019/12/26 23:32:43.877 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2019/12/26 23:33:54.191 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2019/12/26 23:33:55.342 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2019/12/26 23:35:11.329 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2019/12/26 23:35:32.759 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2019/12/26 23:36:03.619 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2019/12/26 23:36:30.682 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2019/12/26 23:37:00.835 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2019/12/26 23:38:02.211 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2019/12/26 23:41:41.613 [I] [router.go:833]  user login in
+2019/12/26 23:41:41.613 [C] [panic.go:679]  the request url is  /
+2019/12/26 23:41:41.613 [C] [panic.go:679]  Handler crashed with error <Ormer> table: `studyBeego/models.Page` not found, make sure it was registered with `RegisterModel()`
+2019/12/26 23:41:41.613 [C] [panic.go:679]  /usr/local/Cellar/go/1.13.5/libexec/src/runtime/panic.go:679
+2019/12/26 23:41:41.613 [C] [panic.go:679]  /Users/anying/go/src/github.com/astaxie/beego/orm/orm.go:114
+2019/12/26 23:41:41.613 [C] [panic.go:679]  /Users/anying/go/src/github.com/astaxie/beego/orm/orm.go:236
+2019/12/26 23:41:41.613 [C] [panic.go:679]  /Users/anying/go/src/studyBeego/models/page.go:33
+2019/12/26 23:41:41.613 [C] [panic.go:679]  /Users/anying/go/src/studyBeego/controllers/default.go:16
+2019/12/26 23:41:41.613 [C] [panic.go:679]  /Users/anying/go/src/github.com/astaxie/beego/router.go:833
+2019/12/26 23:41:41.613 [C] [panic.go:679]  /usr/local/Cellar/go/1.13.5/libexec/src/net/http/server.go:2802
+2019/12/26 23:41:41.613 [C] [panic.go:679]  /usr/local/Cellar/go/1.13.5/libexec/src/net/http/server.go:1890
+2019/12/26 23:41:41.613 [C] [panic.go:679]  /usr/local/Cellar/go/1.13.5/libexec/src/runtime/asm_amd64.s:1357
+2019/12/26 23:41:41.614 [server.go:3054]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
