@@ -1,10 +1,10 @@
 package controllers
 
 import (
+	_ "github.com/anyingiit/xcms_beego/models"
+	modeles "github.com/anyingiit/xcms_beego/models"
 	"github.com/astaxie/beego"
 	"github.com/astaxie/beego/logs"
-	_ "studyBeego/models"
-	modeles "studyBeego/models"
 )
 
 type MainController struct {

@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1d654272-ef1f-4f61-bddc-f411382cd284" name="Default Changelist" comment="" />
+    <list default="true" id="1d654272-ef1f-4f61-bddc-f411382cd284" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/default.go" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/default.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/test.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/test.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routers/router.go" beforeDir="false" afterPath="$PROJECT_DIR$/routers/router.go" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,7 +47,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="settings.editor.selected.configurable" value="go.vgo" />
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -57,6 +63,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+    <proxy>https://goproxy.io</proxy>
   </component>
   <component name="WindowStateProjectService">
     <state x="312" y="66" key="#GOPATH" timestamp="1577367987073">
@@ -83,10 +93,10 @@
       <screen x="0" y="0" width="1424" height="802" />
     </state>
     <state x="362" y="186" key="EditFileWatcherDialog/0.0.1424.802@0.0.1424.802" timestamp="1577364574849" />
-    <state x="213" y="40" key="SettingsEditor" timestamp="1577364576541">
+    <state x="17" y="57" key="SettingsEditor" timestamp="1577547526383">
       <screen x="0" y="0" width="1424" height="802" />
     </state>
-    <state x="213" y="40" key="SettingsEditor/0.0.1424.802@0.0.1424.802" timestamp="1577364576541" />
+    <state x="17" y="57" key="SettingsEditor/0.0.1424.802@0.0.1424.802" timestamp="1577547526383" />
     <state x="370" y="44" width="683" height="714" key="find.popup" timestamp="1577364370792">
       <screen x="0" y="0" width="1424" height="802" />
     </state>

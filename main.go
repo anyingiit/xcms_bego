@@ -4,8 +4,8 @@ import (
 	"github.com/astaxie/beego"
 	"github.com/astaxie/beego/logs"
 	_ "github.com/astaxie/beego/logs"
-	_ "studyBeego/routers"
-	_ "studyBeego/sysinit"
+	_ "github.com/anyingiit/xcms_beego/routers"
+	_ "github.com/anyingiit/xcms_beego/sysinit"
 )
 
 func main() {

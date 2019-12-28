@@ -12,3 +12,5 @@
 2019/12/28 10:49:04.590 [C] [panic.go:679]  /usr/local/Cellar/go/1.13.5/libexec/src/net/http/server.go:1890
 2019/12/28 10:49:04.590 [C] [panic.go:679]  /usr/local/Cellar/go/1.13.5/libexec/src/runtime/asm_amd64.s:1357
 2019/12/28 10:49:04.591 [server.go:3054]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2019/12/28 23:36:29.830 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2019/12/28 23:37:10.341 [I] [asm_amd64.s:1357]  http server Running on http://:8080
