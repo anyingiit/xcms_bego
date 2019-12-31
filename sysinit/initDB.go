@@ -19,7 +19,7 @@ func initDB() {
 
 	isDev := (beego.AppConfig.String("runmode") == "dev")
 
-	//自动创建数据表 参数:数据库别名,数据库是否强制刷新(false的话只会在有重大变化的时候刷新(比如新曾字段),是否显示创建过程
+	//自动创建数据表 参数:数据库别名,数据库是否强制刷新(false的话只会在有重大变化的时候刷新(比如新增字段),是否显示创建过程
 	orm.RunSyncdb("default", false, isDev)
 	if isDev {
 		orm.Debug = isDev

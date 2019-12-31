@@ -3,10 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="1d654272-ef1f-4f61-bddc-f411382cd284" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/default.go" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/default.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/app.conf" beforeDir="false" afterPath="$PROJECT_DIR$/conf/app.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/test.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/test.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routers/router.go" beforeDir="false" afterPath="$PROJECT_DIR$/routers/router.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/MenuModel.go" beforeDir="false" afterPath="$PROJECT_DIR$/models/MenuModel.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/init.go" beforeDir="false" afterPath="$PROJECT_DIR$/models/init.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/reload.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sysinit/initDB.go" beforeDir="false" afterPath="$PROJECT_DIR$/sysinit/initDB.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/index.tpl" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,7 +24,7 @@
       </list>
     </option>
   </component>
-  <component name="GOROOT" path="/usr/local/Cellar/go/1.13.5/libexec" />
+  <component name="GOROOT" path="C:\Go" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -49,6 +53,38 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="go.vgo" />
   </component>
+  <component name="RunManager" selected="JavaScript Debug.layout.html">
+    <configuration name="go build github.com/anyingiit/xcms_beego" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="studyBeego" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/main.go" />
+      <package value="github.com/anyingiit/xcms_beego" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="add.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/xcms_bego/views/menu/add.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/xcms_bego/views/menu/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/xcms_bego/views/login/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="layout.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/xcms_bego/views/common/layout.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.layout.html" />
+        <item itemvalue="JavaScript Debug.index.html (1)" />
+        <item itemvalue="JavaScript Debug.add.html" />
+        <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="Go Build.go build github.com/anyingiit/xcms_beego" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
       <list>
@@ -73,9 +109,10 @@
       <screen x="0" y="0" width="1424" height="802" />
     </state>
     <state x="312" y="66" key="#GOPATH/0.0.1424.802@0.0.1424.802" timestamp="1577367987073" />
-    <state x="312" y="59" key="#GOROOT" timestamp="1577283134710">
-      <screen x="0" y="23" width="1424" height="741" />
+    <state x="807" y="367" key="#GOROOT" timestamp="1577547722961">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
+    <state x="807" y="367" key="#GOROOT/0.0.2560.1400@0.0.2560.1400" timestamp="1577547722961" />
     <state x="312" y="59" key="#GOROOT/0.23.1424.741@0.23.1424.741" timestamp="1577283134710" />
     <state x="312" y="66" key="#Go_Modules_(vgo)" timestamp="1577286837341">
       <screen x="0" y="0" width="1424" height="802" />
@@ -93,6 +130,22 @@
       <screen x="0" y="0" width="1424" height="802" />
     </state>
     <state x="362" y="186" key="EditFileWatcherDialog/0.0.1424.802@0.0.1424.802" timestamp="1577364574849" />
+    <state width="1234" height="266" key="GridCell.Tab.0.bottom" timestamp="1577777474235">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1234" height="266" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1577777474235" />
+    <state width="1234" height="266" key="GridCell.Tab.0.center" timestamp="1577777474234">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1234" height="266" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1577777474234" />
+    <state width="1234" height="266" key="GridCell.Tab.0.left" timestamp="1577777474234">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1234" height="266" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1577777474234" />
+    <state width="1234" height="266" key="GridCell.Tab.0.right" timestamp="1577777474234">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1234" height="266" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1577777474234" />
     <state x="17" y="57" key="SettingsEditor" timestamp="1577547526383">
       <screen x="0" y="0" width="1424" height="802" />
     </state>

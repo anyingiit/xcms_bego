@@ -14,3 +14,35 @@
 2019/12/28 10:49:04.591 [server.go:3054]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
 2019/12/28 23:36:29.830 [I] [asm_amd64.s:1357]  http server Running on http://:8080
 2019/12/28 23:37:10.341 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2019/12/31 15:21:36.569 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2019/12/31 15:22:51.735 [I] [asm_amd64.s:1357]  http server Running on http://localhost:8080
+2019/12/31 15:22:53.565 [I] [router.go:833]  user login in
+2019/12/31 15:22:53.565 [C] [panic.go:679]  the request url is  /
+2019/12/31 15:22:53.565 [C] [panic.go:679]  Handler crashed with error <Ormer> table: `github.com/anyingiit/xcms_beego/models.Page` not found, make sure it was registered with `RegisterModel()`
+2019/12/31 15:22:53.565 [C] [panic.go:679]  C:/Go/src/runtime/panic.go:679
+2019/12/31 15:22:53.565 [C] [panic.go:679]  C:/Users/AnYing/go/pkg/mod/github.com/astaxie/beego@v1.12.0/orm/orm.go:114
+2019/12/31 15:22:53.566 [C] [panic.go:679]  C:/Users/AnYing/go/pkg/mod/github.com/astaxie/beego@v1.12.0/orm/orm.go:236
+2019/12/31 15:22:53.566 [C] [panic.go:679]  C:/Users/AnYing/WorkSpace/xcms_bego/models/page.go:33
+2019/12/31 15:22:53.566 [C] [panic.go:679]  C:/Users/AnYing/WorkSpace/xcms_bego/controllers/default.go:16
+2019/12/31 15:22:53.566 [C] [panic.go:679]  C:/Users/AnYing/go/pkg/mod/github.com/astaxie/beego@v1.12.0/router.go:833
+2019/12/31 15:22:53.566 [C] [panic.go:679]  C:/Go/src/net/http/server.go:2802
+2019/12/31 15:22:53.566 [C] [panic.go:679]  C:/Go/src/net/http/server.go:1890
+2019/12/31 15:22:53.566 [C] [panic.go:679]  C:/Go/src/runtime/asm_amd64.s:1357
+2019/12/31 15:22:53.566 [server.go:3054]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2019/12/31 15:29:55.693 [I] [router.go:833]  user login in
+2019/12/31 15:29:55.693 [C] [panic.go:679]  the request url is  /
+2019/12/31 15:29:55.694 [C] [panic.go:679]  Handler crashed with error <Ormer> table: `github.com/anyingiit/xcms_beego/models.Page` not found, make sure it was registered with `RegisterModel()`
+2019/12/31 15:29:55.694 [C] [panic.go:679]  C:/Go/src/runtime/panic.go:679
+2019/12/31 15:29:55.694 [C] [panic.go:679]  C:/Users/AnYing/go/pkg/mod/github.com/astaxie/beego@v1.12.0/orm/orm.go:114
+2019/12/31 15:29:55.694 [C] [panic.go:679]  C:/Users/AnYing/go/pkg/mod/github.com/astaxie/beego@v1.12.0/orm/orm.go:236
+2019/12/31 15:29:55.694 [C] [panic.go:679]  C:/Users/AnYing/WorkSpace/xcms_bego/models/page.go:33
+2019/12/31 15:29:55.694 [C] [panic.go:679]  C:/Users/AnYing/WorkSpace/xcms_bego/controllers/default.go:16
+2019/12/31 15:29:55.694 [C] [panic.go:679]  C:/Users/AnYing/go/pkg/mod/github.com/astaxie/beego@v1.12.0/router.go:833
+2019/12/31 15:29:55.694 [C] [panic.go:679]  C:/Go/src/net/http/server.go:2802
+2019/12/31 15:29:55.694 [C] [panic.go:679]  C:/Go/src/net/http/server.go:1890
+2019/12/31 15:29:55.694 [C] [panic.go:679]  C:/Go/src/runtime/asm_amd64.s:1357
+2019/12/31 15:29:55.694 [server.go:3054]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2019/12/31 15:30:14.502 [I] [asm_amd64.s:1357]  http server Running on http://localhost:8080
+2019/12/31 15:30:17.283 [I] [router.go:833]  user login in
+2019/12/31 15:30:38.040 [I] [router.go:833]  user login in
+2019/12/31 15:31:14.587 [I] [asm_amd64.s:1357]  http server Running on http://localhost:8080
